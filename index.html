@@ -1,21 +1,48 @@
 <html>
   <head>
     <style>
+    
+    nav li a {
+      text-decoration: none;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
      nav {
     padding:200px 0;
      background-color: rgba(255,0,0,0.5);
      width: 200px;
      height:50vh;
      position: fixed;
+     text-align: center;
+   }
+   ul {
+     border:solid black;
+     padding:0;
    }
    /*section {*/
      /*border: solid 50px black ;*/
      /*padding:50px;*/
      /*margin:50px;*/
+   
+   
+   nav ul  {
+     list-style: none;
+     border:solid black;
+     
    }
    
-   nav li {
-     list-style: none;
+   nav img {
+     width:150px;
+     border-radius:50%;
+     border:solid brown;
+     border-width:10px;
+   }
+   
+   section {
+     border: black solid;
+     padding:100px;
+     hight:200px
    }
    
    main {
@@ -26,20 +53,24 @@
   
   
   <body>
-   <nav><ul>
-      <li><a href="">About</a></li>
-      <li><a href="">Education</a></li>
-      <li><a href="">Experiances</a></li>
-      <li><a href="">Skills</a></li>
-      <li><a href="">Interests</a></li>
-      <li><a href="">Awareds</a></li>
+   <nav>
+     <img src="https://github.com/lachlantelewiak-prog/lachlantelewiak-prog.github.io/blob/main/bisakha-datta-2qOTf5qx2_4-unsplash.jpg?raw=true"
+     
+     <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experiances">Experiances</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#interests">Interests</a></li>
+    <li><a href="#awards">Awards</a></li>
     </ul>
     </nav>
+    
     <main>
-      <h1>Lachlan Telewiak</h1>
-      <p><a href="mailto:lachlantelewiak@gmail.com"> lachlantelewiak@gmail.com </a></p>
       
-      <section id="about">About</section>
+      
+      <section id="about">Lachlan Telewiak</h1>
+      <p><a href="mailto:lachlantelewiak@gmail.com"> lachlantelewiak@gmail.com </a></p></section>
       <section id="experiances">Experiance</section>
       <section id="education">Education</section>
       <section id="skills">Skills</section>
